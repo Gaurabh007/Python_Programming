@@ -85,7 +85,7 @@ plt.ylabel('Close Price')
 plt.plot(train['Close'])
 plt.plot(valid[['Close', 'Prediction']])
 plt.legend(['Train', 'Validation', 'Prediction'], loc='upper left')
-slt.pyplot(fig2)
+plt.pyplot(fig2)
 
 
 # Accuracy and Scores
